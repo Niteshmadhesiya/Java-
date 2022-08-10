@@ -1,0 +1,13 @@
+import java.util.*;
+class Testvector
+{
+public static void main(String[] args)
+{
+Vector<String>v=new Vector<String>();
+v.add("AB");
+v.add("CD");
+v.add("EF");
+v.add("GH");
+System.out.println(v);
+}
+}
