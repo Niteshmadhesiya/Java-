@@ -1,0 +1,15 @@
+import java.util.*;
+class stack
+{
+public static void main(String[] args)
+{
+Stack<String>s=new Stack<String>();
+s.add("AB");
+s.add("CD");
+s.add("EF");
+s.add("GH");
+System.out.println(s);
+
+System.out.println(s.pop());
+}
+}
