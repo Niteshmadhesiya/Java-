@@ -1,0 +1,31 @@
+import java.util.*;
+class Hash3
+{
+public static void main(String[] args)
+{
+HashSet<Integer> h=new LinkedHashSet<Integer>();
+h.add(15);
+h.add(06);
+h.add(25);
+h.add(54);
+System.out.println(h);
+h.remove(6);
+System.out.println(h);
+
+HashSet<Integer> h1=new LinkedHashSet<Integer>();
+h1.add(11);
+h1.add(26);
+h1.add(35);
+h1.add(4);
+h.addAll(h1);
+System.out.println(h);
+System.out.println(h.size());
+System.out.println(h.isEmpty());
+System.out.println(h.contains(4));
+for(Integer i:h)
+{
+System.out.println(i);
+}
+}
+}
+
