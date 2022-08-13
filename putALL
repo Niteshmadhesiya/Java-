@@ -1,0 +1,26 @@
+import java.util.*;
+class TestMap2
+{
+public static void main(String [] args)
+{
+Map<Integer,String>map=new HashMap<Integer,String>();
+map.put(1,"a");
+map.put(3,"b");
+map.put(8,"c");
+map.put(2,"d");
+//System.out.println(map);
+Map<Integer,String>map1=new HashMap<Integer,String>();
+map1.put(69,"a");
+map1.put(72,"b");
+map1.put(89,"c");
+map1.put(29,"d");
+map1.putAll(map);
+//for(int i: key)
+{
+System.out.println(map1);
+System.out.println(map1.isEmpty());
+System.out.println(map1.containsKey(69));
+System.out.println(map1.size());
+}
+}
+}
