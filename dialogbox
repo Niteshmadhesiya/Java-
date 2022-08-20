@@ -1,0 +1,13 @@
+import javax.swing.*;
+import java.awt.*;
+class FrameDemo1
+{
+public static void main(String[] args)
+{
+JFrame f=new JFrame();
+//JDialog d=new JDialog(f,"Dialog Example");
+JOptionPane.showMessageDialog(f,"message dialog example");
+//f.setSize(400,400);
+//f.setVisible(true);
+}
+}
